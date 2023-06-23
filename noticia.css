@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;   
+}
+body{
+    box-sizing: border-box;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    border: 1px solid #EBEBEB;
+
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  margin: 0 auto;
+
+}
+
+
+li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin: 25px 20px;
+    
+    
+}
+
+.menuItem{
+
+    color: #757575;
+    size: 13px;
+    margin-top: 10px;
+    gap: 60px;
+    
+
+}
+
+
+.btn{
+    background:#1A8917;
+    color: white;
+    border-radius: 20px;
+    size: 5px;
+    border: none;
+    height: 30px;
+    width: 60px;
+    margin-top: 40px;
+
+    
+}
+.logo{
+   display: flex;
+   margin-top: 55px;
+   margin-left: 55px;
+   gap: 20px;
+   justify-content: space-between;
+}
+
+.input{
+    position: relative;
+    background-color: #F2F2F2;
+    ;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 20px;
+    height: 40px;
+    top: 16px;
+    width: 240px;
+    border: none;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 50%;
+}
+
+.lupa{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 11%;
+    
+}
+
+.lapis{
+
+height: 24px;
+width: 24px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+margin-top: 45px;
+gap: 20px;
+
+}
+
+.usuario{
+    height: 32px;
+width: 32px;
+left: 0px;
+top: 0px;
+border-radius: 16px;
+margin-top: 35px;
+
+
+}
+
+.setinha{
+height: 12px;
+width: 12px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+margin-top: 45px;
+
+}
+
+.titulo{
+    height: 106px;
+width: 626.0399780273438px;
+left: 0px;
+top: -1px;
+margin-left: 28%;
+margin-bottom: 50px;
+border-radius: nullpx;
+font-family: Inter;
+font-size: 39px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: -0.4620000123977661px;
+text-align: left;
+color: #292929;
+
+}
+
+
+.foto{
+ 
+display: flex;
+align-items: baseline;
+margin-left: 28%;
+height: 44px;
+width: 44px;
+left: 0px;
+top: 0px;
+border-radius: 22px;
+
+}
+
+.carinha{
+    display: flex;
+align-items: baseline;
+margin-left: 30%;
+margin-top: -20px;
+height: 24px;
+width: 24px;
+left: 0px;
+top: 0px;
+border-radius: 12px;
+
+
+
+
+}
+
+.murillo{
+    display: flex;
+align-items: baseline;
+margin-left: 33%;
+margin-top: -45px;
+
+
+}
+
+.seguir{
+    color: #1A8917;
+    display: flex;
+align-items: baseline;
+margin-left: 39%;
+margin-top: -18px;
+
+}
+
+.publicado{
+
+  color: #757575;
+}
+.min{
+    color: #757575;
+}
+.jul{
+    color: #757575;
+    margin-bottom: 43px;
+
+}
+
+.class{
+    display: flex;
+    align-items: baseline;
+    margin-left: 33%;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.figuras{
+    display: flex;
+    align-items: center;
+    margin-left:40%;
+    margin-top: -30px;
+    gap: 10px;
+    margin-bottom: 40px;
+    max-width: 650px;
+    width: 700px;
+    margin: auto;
+    border-top:1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+    padding: 10px;
+}
+
+.figuras2{
+
+    display: flex;
+    align-items: center;
+    margin-left: 60%;
+    margin-top: -35px;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.n1{
+    display: flex;
+    align-items: center;
+    color: #757575;
+ 
+    margin-top: -20px;
+    
+}
+.n2{
+    display: flex;
+    align-items: center;
+    color: #757575;
+    margin-top: -20px;
+}
+
+
+.adicionar{
+
+color: #757575;
+
+
+}
+.Brasilgrande{
+    margin-left: 28%;
+}
+
+.textos{
+    align-items: center;
+    justify-content: center;
+    width: 606.37px;
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Source Serif 4', serif;
+margin-left: 28%;
+margin-top: 40px;
+}
+.medium{
+    background-color: #EBEBEB;
+    border-radius: 20px;
+    max-width: 150px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    color: #292929;
+    
+}
+
+.saopaulo{
+    background-color: #EBEBEB;
+    border-radius: 20px;
+    max-width: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: -22px;
+    gap: 10px;
+}
+
+.brasil{
+    background-color: #EBEBEB;
+    border-radius: 20px;
+    max-width: 100px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    margin-left: 42%;
+    margin-top: -22px;
+    text-align: center;
+
+}
+
+.cronicas{
+    background-color: #EBEBEB;
+    border-radius: 20px;
+    max-width: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 53%;
+    margin-top: -22px;
+
+}
+
+.comportamentos{
+    background-color: #EBEBEB;
+    border-radius: 20px;
+    max-width: 400px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    margin-left: 69%;
+    margin-top: -23px;
+    margin-bottom: 50px;
+
+}
+
+.textStyle{
+    background-color: #E8F3E8;
+    
+}
+
+.redes{
+    display: flex;
+    text-decoration:underline;
+    gap: 10px;
+    color: #292929;
+}
